@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.row{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+h1{
+    color:rgb(0, 0, 0);
+    font-family:monospace;
+    font-size: 30px;
+    text-align:center;
+}
+.lg, .md1, .md2, .md3, .sm {
+    float:left;
+    background-color:rgb(159, 171, 184);
+    width:90%;
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+    border: 3px solid black;
+    padding-bottom: 10px;
+    overflow:hidden;
+}
+section{
+    width: 30%;
+    border: 3px solid black;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+#abc{
+    position: relative;
+    left: 70%;
+    background-color:rosybrown;
+    color:rgb(0, 0, 0);
+    border-top: hidden;
+    border-right: hidden;
+}
+#xyz{
+    position: relative;
+    left: 70%;
+    background-color:rgb(255, 80, 80);
+    color: white;
+    border-top: hidden;
+    border-right: hidden;
+}
+#pqr{
+    position: relative;
+    left: 70%;
+    background-color:darkkhaki;
+    color: rgb(0, 0, 0);
+    border-top: hidden;
+    border-right: hidden;
+}
+p{
+    clear: right;
+    font-size:15px;
+    color:black;
+    font-family: monospace;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(min-width: 992px) {
+    .lg{
+        width: 31%;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+    .md1, .md2{
+        width: 46%;
+    }
+    .md3{
+        width:95%;
+    }
+}
+@media(max-width: 767px){
+    .sm{
+        width: 95%;
+    }
+}
